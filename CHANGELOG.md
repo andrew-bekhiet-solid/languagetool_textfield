@@ -1,3 +1,8 @@
+## 1.0.1
+
+- Fixes a bug where changing text programmatically can sometimes throw a RangeError
+- Fixes notifying listeners after async gap when disposed
+
 ## 1.0.0
 
 - BREAKING: require flutter 3.27.0 or higher
@@ -66,7 +71,7 @@
 - Moved implementation into the `src` directory
 - Updated dependencies
 - Add some properties (cursorColor, onTextChange, focusNode, onTextSubmitted, ...) for TextField
-    Credits: @dab246
+  Credits: @dab246
 - Replace deprecated MaterialStateMouseCursor
 
 ## 0.0.6
